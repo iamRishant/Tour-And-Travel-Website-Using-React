@@ -87,4 +87,17 @@ margin:5rem 0;
     }
   }
 }
+@media screen and (min-width:280px) and (max-width:768px){
+.testimonials{
+  flex-direction:column;
+  margin:0;
+  .testimonial{
+    justify-content:center;
+    .info{
+      flex-direction:column;
+      justify-content:center;
+    }
+  }
+}
+}
 `;

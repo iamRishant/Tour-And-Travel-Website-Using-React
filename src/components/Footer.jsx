@@ -50,4 +50,15 @@ ul{
     }
   }
 }
+
+@media screen and (min-width:280px) and (max-width:1024px){
+flex-direction:column;
+gap:2rem;
+ul{
+  flex-direction:column; 
+}
+.social__links{
+  flex-direction:row;
+}
+}
 `;
