@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className='brand'>
          <div className='container'>
           <img src={logo} alt="" />
-          Travelo
+          Trippi Safar
          </div>
          <div className='toggle'>
           {
